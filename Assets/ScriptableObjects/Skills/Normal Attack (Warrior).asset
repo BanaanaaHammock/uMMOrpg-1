@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86a8f8abd50882641946b6e97ea405f7, type: 3}
+  m_Name: Normal Attack (Warrior)
+  m_EditorClassIdentifier: 
+  category: Attack
+  damage: 5
+  castTime: 1.467
+  cooldown: 0
+  castRange: 3
+  manaCosts: 0
+  healsHp: 0
+  healsMp: 0
+  autorepeat: 1
+  description: Default Attack
+  image: {fileID: 21300000, guid: 6c741b0308eb44729a29054a44802068, type: 3}
+  animation: Attack-simple
+  projectile: {fileID: 0}
+  learnDefault: 1
+  learnLevel: 0
+  learnSkillExp: 0

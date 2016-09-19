@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86a8f8abd50882641946b6e97ea405f7, type: 3}
+  m_Name: Strong Hit
+  m_EditorClassIdentifier: 
+  category: Attack
+  damage: 15
+  castTime: 1.933
+  cooldown: 5
+  castRange: 3
+  manaCosts: 5
+  healsHp: 0
+  healsMp: 0
+  autorepeat: 0
+  description: Hits the enemy hard.
+  image: {fileID: 21300000, guid: 38ac7b4d8a1b54cf885f201960eb97b5, type: 3}
+  animation: Attack-hard
+  projectile: {fileID: 0}
+  learnDefault: 0
+  learnLevel: 1
+  learnSkillExp: 5
