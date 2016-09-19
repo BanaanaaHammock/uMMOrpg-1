@@ -14,6 +14,9 @@
 using UnityEngine;
 using UnityEngine.Networking;
 
+/// <summary>
+/// 负责同步寻路的类NetworkNavMeshAgent
+/// </summary>
 [RequireComponent(typeof(NavMeshAgent))]
 [NetworkSettings(sendInterval=0)] // save bandwidth, only sync when dirty
 public class NetworkNavMeshAgent : NetworkBehaviour {
