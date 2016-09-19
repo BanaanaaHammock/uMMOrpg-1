@@ -221,7 +221,7 @@ public class Monster : Entity {
                     Invoke("Respawn", respawnTime);
                 // or just disappear forever
                 } else {
-                    NetworkServer.Destroy(gameObject);
+                    NetworkServer.Destroy(gameObject); //服务端销毁所有客户端这个对象
                 }
             }
         }
