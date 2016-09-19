@@ -5,6 +5,10 @@
 // into an empty GameObject and use that empty GameObject for positioning.
 using UnityEngine;
 
+/// <summary>
+/// 让ui挂件朝向摄像机，显示出来时就是2d屏幕的ui
+/// 在Skeleton->NameOverlayPosition->NameOverlay下
+/// </summary>
 public class FaceCamera : MonoBehaviour {   
     // LateUpdate so that all camera updates are finished.
     void LateUpdate () {
