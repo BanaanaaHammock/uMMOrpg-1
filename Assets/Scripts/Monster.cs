@@ -250,6 +250,7 @@ public class Monster : Entity {
 
     // OnDrawGizmos only happens while the Script is not collapsed
     void OnDrawGizmos() {
+        return; //取消绘制球体
 
         // draw the movement area (around 'start' if game running,
         // or around current position if still editing)
