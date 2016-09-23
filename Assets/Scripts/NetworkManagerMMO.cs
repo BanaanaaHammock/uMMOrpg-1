@@ -85,6 +85,10 @@ public class NetworkManagerMMO : NetworkManager {
         return NetworkClient.active && !ClientScene.ready;
     }
 
+    /// <summary>
+    /// 链接成功的客户端回调
+    /// </summary>
+    /// <param name="conn"></param>
     public override void OnClientConnect(NetworkConnection conn) {
         print("OnClientConnect");
 
